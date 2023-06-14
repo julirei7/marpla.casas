@@ -1,0 +1,194 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+    
+   
+
+}
+
+:root {
+
+    width: 100%;
+    /* --colorprincipal : #473d3d; */
+    --colorprincipal : #2d2929;
+    --colorsec : #6b5f49f5;
+    --colorlink : rgb(177, 10, 10);
+    --hoverlink : rgb(245, 75, 75);
+    --blanqui : rgb(178, 34, 34);
+
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    background-image: url(./assets/backmadera.jpg);
+    background-position: 50%;
+        
+    background-color: rgba(0, 0, 0, 0.027);
+    width: 100%;
+    overflow-x: hidden;
+    opacity: 1;
+}
+
+
+
+header{
+    position: static;
+    background-color: var(--colorsec);
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 0px 0px 15px 15px;
+    
+   
+    padding: 10px 10% 10px;
+    
+    
+}
+
+header a {
+    color: var(--colorprincipal);
+    text-decoration: none;
+    
+
+}
+
+.menu {
+    border: #2b2a2a solid 1px;
+    display: flex;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 40px;
+  
+}
+
+.menu:hover {
+    transform: scale(1.05);
+    transition: all .3s ease-in-out;
+    background-color: rgba(240, 248, 255, 0.622);
+    color: #f31717;
+    font-weight: bold;
+}
+
+.logop {
+    width: 100%;
+    display: flex;
+    
+}
+
+.logop>a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+
+
+}
+h1 {
+    width: 100%;
+    color: var(--colorprincipal);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    padding: 0% 70% 0% 0%;
+    font-weight: normal;
+
+}
+ 
+div>a {
+    width: 100%;
+}
+
+nav{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 143.25px;
+    
+}
+
+nav>a {
+    border: #f31717;
+    border-radius: 5px;
+    
+}
+
+
+main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+   
+    
+}
+
+.cuerpo {
+    width: 100%;
+    text-align: center;
+    background-color: rgba(250, 235, 215, 0.794);
+    margin: 2% 5% 2% 5%;
+    border-radius: 10px;
+    
+
+}
+.redes {
+    display: flex;
+    justify-content: center;
+    padding: 15px
+}
+
+.logoredes {
+    padding: 5px;
+}
+
+.cuerpo p {
+    margin: 15px 0 5px;
+}
+
+.cuerpo a {
+    color: var(--colorlink);
+}
+
+.cuerpo a:hover {
+    color: var(--hoverlink);
+}
+
+
+
+
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--colorsec);
+    position: absolute;
+    text-align: center;
+    border-radius: 2px 2px 0 0;
+    padding: 15px;
+    
+}
+
+.divfooter {
+
+    width: 100%;
+}
+
+h5{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+
+}

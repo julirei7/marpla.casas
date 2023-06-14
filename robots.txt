@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /index.html/
+Allow: /#
+
+Sitemap: https://marplacasas.com.ar/sitemap.txt/
